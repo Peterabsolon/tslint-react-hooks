@@ -1,7 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const is_react_api_expression_1 = require("./is-react-api-expression");
-const reactComponentDecorators = ['forwardRef', 'memo', 'observer'];
+const reactComponentDecorators = [
+    'forwardRef',
+    'memo',
+    'observer',
+    'useObserver',
+];
 /**
  * Tests is an expression is a React top-level API component decorator (e.g. `React.forwardRef`,
  * `React.memo`)
